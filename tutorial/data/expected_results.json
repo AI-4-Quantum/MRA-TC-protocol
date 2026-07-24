@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "e_tc": -2.8994707509232716,
+      "family": "pure",
+      "mu": 0.5
+    },
+    {
+      "e_tc": -2.8949776490783585,
+      "family": "pure",
+      "mu": 1.0
+    },
+    {
+      "e_tc": -2.9054518102861104,
+      "family": "optimized",
+      "mu": 0.5
+    },
+    {
+      "e_tc": -2.903705302858295,
+      "family": "optimized",
+      "mu": 1.0
+    }
+  ],
+  "exact_reference": -2.903724,
+  "gl_order": 24,
+  "plain_energies": {
+    "optimized": -2.8976711521668497,
+    "pure": -2.8875948198031116
+  },
+  "provenance": {
+    "policy": "commit is authoritative when present; version is the fallback when no commit is available",
+    "python": "3.12.12",
+    "software": {
+      "block2": {
+        "commit": "a7f7da9274375483ef2a6dcc28bfb50295fdd2db",
+        "version": "0.5.3"
+      },
+      "ipykernel": {
+        "version": "7.2.0"
+      },
+      "jupyter": {
+        "version": "1.1.1"
+      },
+      "mrcpp": {
+        "commit": "8107aabe28d6e75f04d66c95a94c157731484eae"
+      },
+      "nbformat": {
+        "version": "5.10.4"
+      },
+      "numpy": {
+        "version": "2.4.6"
+      },
+      "pyscf": {
+        "version": "2.13.1"
+      },
+      "pytchint": {
+        "commit": "4cba43b7387cd3255950e793815f34c354cee926",
+        "role": "interface reference only"
+      },
+      "scipy": {
+        "version": "1.17.1"
+      },
+      "vampyr": {
+        "commit": "cfffb56ef83f8850cd4ee83750e41f0fa51ebf0d",
+        "version": "1.0rc1"
+      }
+    }
+  },
+  "x_min": 8.7e-05
+}
